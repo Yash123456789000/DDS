@@ -3777,6 +3777,7 @@ figcaption {
     grid-template-rows: auto;
     grid-template-columns: .75fr 1fr;
     align-items: start;
+    padding-bottom: 200px;
 }
 
 .about-list-wrap {
