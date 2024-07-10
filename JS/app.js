@@ -1756,7 +1756,7 @@ __p+='`), p
         var bI = Ye(),
             _I = 0,
             II = Math.random(),
-            TI = bI(1.toString);
+            TI = bI(1 .toString);
         vc.exports = function(e) {
             return "Symbol(" + (e === void 0 ? "" : e) + ")_" + TI(++_I + II, 36)
         }
@@ -3068,7 +3068,7 @@ __p+='`), p
             if (!Array.isArray(t) && Df(Ff), e != null) {
                 for (var r = e, n = 0; n < t.length; n++) {
                     var i = t[n];
-                    if (r = r ? .[i], r === void 0) return r
+                    if (r = r ?.[i], r === void 0) return r
                 }
                 return r
             }
@@ -3076,7 +3076,7 @@ __p+='`), p
 
         function Pn(e, t, r) {
             var n = typeof t == "number" ? [] : {},
-                i = e ? ? n;
+                i = e ?? n;
             if (i[t] === r) return i;
             var o = Ln(i);
             return o[t] = r, o
@@ -3098,7 +3098,7 @@ __p+='`), p
         }
 
         function jf(e, t, r) {
-            var n = e ? .[t],
+            var n = e ?.[t],
                 i = r(n);
             return Pn(e, t, i)
         }
@@ -3505,7 +3505,7 @@ __p+='`), p
     });
     var kd = c((FB, Dd) => {
         function ZA(e, t) {
-            return e ? .[t]
+            return e ?.[t]
         }
         Dd.exports = ZA
     });
@@ -3996,7 +3996,7 @@ __p+='`), p
 
         function pR(e, t) {
             var r = typeof e;
-            return t = t ? ? fR, !!t && (r == "number" || r != "symbol" && dR.test(e)) && e > -1 && e % 1 == 0 && e < t
+            return t = t ?? fR, !!t && (r == "number" || r != "symbol" && dR.test(e)) && e > -1 && e % 1 == 0 && e < t
         }
         sg.exports = pR
     });
@@ -4593,7 +4593,7 @@ __p+='`), p
     var _a = c((lX, Uv) => {
         function IP(e) {
             return function(t) {
-                return t ? .[e]
+                return t ?.[e]
             }
         }
         Uv.exports = IP
@@ -4902,7 +4902,7 @@ __p+='`), p
     }
 
     function Oq(e) {
-        return (e /= .5) < 1 ? .5 * Math.pow(e, 2) : -.5 * ((e -= 2) * e - 2)
+        return (e /= .5) < 1 ?.5 * Math.pow(e, 2) : -.5 * ((e -= 2) * e - 2)
     }
 
     function Aq(e) {
@@ -4914,7 +4914,7 @@ __p+='`), p
     }
 
     function Cq(e) {
-        return (e /= .5) < 1 ? .5 * Math.pow(e, 3) : .5 * (Math.pow(e - 2, 3) + 2)
+        return (e /= .5) < 1 ?.5 * Math.pow(e, 3) : .5 * (Math.pow(e - 2, 3) + 2)
     }
 
     function Rq(e) {
@@ -4926,7 +4926,7 @@ __p+='`), p
     }
 
     function Nq(e) {
-        return (e /= .5) < 1 ? .5 * Math.pow(e, 4) : -.5 * ((e -= 2) * Math.pow(e, 3) - 2)
+        return (e /= .5) < 1 ?.5 * Math.pow(e, 4) : -.5 * ((e -= 2) * Math.pow(e, 3) - 2)
     }
 
     function Pq(e) {
@@ -4938,7 +4938,7 @@ __p+='`), p
     }
 
     function Mq(e) {
-        return (e /= .5) < 1 ? .5 * Math.pow(e, 5) : .5 * (Math.pow(e - 2, 5) + 2)
+        return (e /= .5) < 1 ?.5 * Math.pow(e, 5) : .5 * (Math.pow(e - 2, 5) + 2)
     }
 
     function Fq(e) {
@@ -4962,7 +4962,7 @@ __p+='`), p
     }
 
     function Vq(e) {
-        return e === 0 ? 0 : e === 1 ? 1 : (e /= .5) < 1 ? .5 * Math.pow(2, 10 * (e - 1)) : .5 * (-Math.pow(2, -10 * --e) + 2)
+        return e === 0 ? 0 : e === 1 ? 1 : (e /= .5) < 1 ?.5 * Math.pow(2, 10 * (e - 1)) : .5 * (-Math.pow(2, -10 * --e) + 2)
     }
 
     function Wq(e) {
@@ -4993,7 +4993,7 @@ __p+='`), p
 
     function Kq(e) {
         let t = vt;
-        return (e /= .5) < 1 ? .5 * (e * e * (((t *= 1.525) + 1) * e - t)) : .5 * ((e -= 2) * e * (((t *= 1.525) + 1) * e + t) + 2)
+        return (e /= .5) < 1 ?.5 * (e * e * (((t *= 1.525) + 1) * e - t)) : .5 * ((e -= 2) * e * (((t *= 1.525) + 1) * e + t) + 2)
     }
 
     function Yq(e) {
@@ -5019,7 +5019,7 @@ __p+='`), p
 
     function Zq(e) {
         let t = vt;
-        return (e /= .5) < 1 ? .5 * (e * e * (((t *= 1.525) + 1) * e - t)) : .5 * ((e -= 2) * e * (((t *= 1.525) + 1) * e + t) + 2)
+        return (e /= .5) < 1 ?.5 * (e * e * (((t *= 1.525) + 1) * e - t)) : .5 * ((e -= 2) * e * (((t *= 1.525) + 1) * e + t) + 2)
     }
 
     function Jq(e) {
@@ -5847,7 +5847,7 @@ __p+='`), p
             let G = a(I);
             return G ? [G] : []
         }
-        let q = (t ? .action ? .config ? .affectedElements ? ? {})[I || T] || {},
+        let q = (t ?.action ?.config ?.affectedElements ?? {})[I || T] || {},
             K = !!(q.id || q.selector),
             j, Q, J, ne = t && s(Jh(t.target));
         if (K ? (j = q.limitAffectedElements, Q = ne, J = s(q)) : Q = J = s({
@@ -6745,7 +6745,7 @@ __p+='`), p
                 duration: x,
                 delay: T
             } = u.config;
-            g != null && (x = g), T = b ? ? T, a === z1 ? x = 0 : (o || E) && (x = T = 0);
+            g != null && (x = g), T = b ?? T, a === z1 ? x = 0 : (o || E) && (x = T = 0);
             let {
                 now: L
             } = t.payload;
@@ -8921,7 +8921,7 @@ __p+='`), p
                 let {
                     config: b,
                     actionTypeId: m
-                } = g, E = b ? .target ? .useEventTarget === !0 && b ? .target ? .objectId == null ? {
+                } = g, E = b ?.target ?.useEventTarget === !0 && b ?.target ?.objectId == null ? {
                     target: s.target,
                     targets: s.targets
                 } : b, I = Si({
@@ -9017,7 +9017,7 @@ __p+='`), p
         } = m;
         if (!E || !E.length) return !1;
         o >= E.length && (0, yt.default)(g, "config.loop") && (o = 0), o === 0 && I && o++;
-        let T = (o === 0 || o === 1 && I) && Os(g.action ? .actionTypeId) ? g.config.delay : void 0,
+        let T = (o === 0 || o === 1 && I) && Os(g.action ?.actionTypeId) ? g.config.delay : void 0,
             L = (0, yt.default)(E, [o, "actionItems"], []);
         if (!L.length || !Ci(b, f.mediaQueryKey)) return !1;
         let R = f.hasBoundaryNodes && r ? en(r, Ai) : null,
@@ -9094,7 +9094,7 @@ __p+='`), p
         } = t.getState(), x = eV(m, i), {
             refState: T
         } = m[x] || {}, L = hs(i), R = E.reducedMotion && $o[o.actionTypeId], P;
-        if (R && u) switch (I.events[_] ? .eventTypeId) {
+        if (R && u) switch (I.events[_] ?.eventTypeId) {
             case Ze.MOUSE_MOVE:
             case Ze.MOUSE_MOVE_IN_VIEWPORT:
                 P = f;
