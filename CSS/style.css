@@ -44,6 +44,7 @@ template {
 
 a {
     background-color: rgba(0, 0, 0, 0);
+    text-align: start;
 }
 
 a:active,
@@ -222,7 +223,7 @@ th {
 
 [class^="w-icon-"],
 [class*=" w-icon-"] {
-    speak: none;
+    /* speak: none; */
     font-variant: normal;
     text-transform: none;
     -webkit-font-smoothing: antialiased;
@@ -368,7 +369,7 @@ pre.w-code-block code {
     text-indent: 0;
     text-transform: inherit;
     text-shadow: none;
-    font-smoothing: auto;
+    /* font-smoothing: auto; */
     vertical-align: baseline;
     cursor: inherit;
     white-space: inherit;
@@ -2381,7 +2382,7 @@ p {
 
 a {
     color: var(--color--white);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 ul,
@@ -3152,6 +3153,12 @@ figcaption {
     overflow: hidden;
 }
 
+.logo-link{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 .grid-footer {
     grid-column-gap: 50px;
     grid-row-gap: 50px;
@@ -3437,7 +3444,7 @@ figcaption {
     grid-column-gap: 30px;
     grid-row-gap: 30px;
     grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     grid-auto-columns: 1fr;
     display: grid;
 }
@@ -7049,6 +7056,10 @@ figcaption {
         grid-row-gap: 30px;
         grid-template-columns: 1fr;
     }
+    
+  
+    
+    
     .hero-supported-podcast {
         flex-direction: column;
         align-items: flex-start;
