@@ -2900,7 +2900,7 @@ figcaption {
     font-family: var(--font-family--heading);
     color: var(--color--white);
     margin-bottom: 10px;
-    font-size: 34px;
+    font-size: 28px;
     font-weight: 500;
     line-height: 1.3em;
 }
@@ -3541,7 +3541,7 @@ figcaption {
 .hero-title {
     text-transform: uppercase;
     margin-bottom: 0;
-    font-size: 7vw;
+    font-size: 6.5vw;
     line-height: 1.1em;
 }
 
