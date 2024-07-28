@@ -7531,6 +7531,11 @@ figcaption {
         order: 9999;
         grid-column: span 2 / span 2;
     }
+    .image-image-left {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media screen and (max-width: 767px) {
