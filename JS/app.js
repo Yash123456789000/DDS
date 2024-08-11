@@ -1125,15 +1125,16 @@ __p+='`), p
                 e(f).attr("style", m ? "display: none !important;" : "")
             }
 
-            // function g() {
-            //     var m = e('<a class="w-webflow-badge"></a>').attr("href", "https://ppgsiitkgp.in/"),
-            //         E = e("<img>").attr("src", "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon-d2.89e12c322e.svg").attr("alt", "").css({
-            //             marginRight: "4px",
-            //             width: "26px"
-            //         }),
-            //         I = e("<img>").attr("src", "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-text-d2.c82cec3b78.svg").attr("alt", "Made in Webflow");
-            //     return m.append(E, I), m[0]
-            // }
+            function g() {
+                var m = e('<a class="w-webflow-badge"></a>').attr("href", "https://ppgsiitkgp.in/"),
+                    E = e("<img>").attr("src", "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon-d2.89e12c322e.svg").attr("alt", "").css({
+                        marginRight: "4px",
+                        width: "26px",
+                        display: "none",
+                    }),
+                    I = e("<img>").attr("src", "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-text-d2.c82cec3b78.svg").attr("alt", "Made in Webflow");
+                return m.append(E, I), m[0]
+            }
 
             function b() {
                 var m = i.children(o),

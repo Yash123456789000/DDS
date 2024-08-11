@@ -383,7 +383,7 @@ pre.w-code-block code {
     padding: 0;
     list-style-type: disc;
     transition: none;
-    display: block;
+    display: none;
     position: static;
     top: auto;
     bottom: auto;
@@ -410,7 +410,7 @@ pre.w-code-block code {
     font-size: 12px !important;
     line-height: 14px !important;
     text-decoration: none !important;
-    display: inline-block !important;
+    /* display: inline-block !important; */
     position: fixed !important;
     top: auto !important;
     bottom: 12px !important;
